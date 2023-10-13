@@ -1,5 +1,3 @@
 # Vector's-projects
 
-This is a calculator.
-To find out the most recent version of the calculator find:
-"V" {Highest number}
+Welcome to this Repository where all my projects are.
