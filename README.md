@@ -1,3 +1,16 @@
-# Vector's-projects
+# Intro
 
-Welcome to this Repository where all my projects are.
+Welcome,
+  this is where you can find
+  all the information on my Calculator
+  project. 
+
+# Read the versions
+
+How to read the versions,
+  to read the versions
+  find "v" and look for
+  the highest number.
+  if you want an
+  older model, find the
+  lowest number.
