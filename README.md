@@ -19,4 +19,14 @@ How to read the versions,
   I try and release new versions
   as soon as I can, because I
   like to keep the Calculator up
-  to date
+  to date.
+  
+# Calculator V1.11
+  Calculator V1.11 has
+  dynamic buttons which
+  fit to the tab size
+  the answer area is
+  also dynamic. V1.11
+  now has brackets and
+  follows the order of
+  operations.
