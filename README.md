@@ -19,4 +19,4 @@ How to read the versions,
   I try and release new versions
   as soon as I can, because I
   like to keep the Calculator up
-  to date.
+  to date
