@@ -21,7 +21,7 @@ How to read the versions,
   like to keep the Calculator up
   to date.
   
-# Calculator V1.11
+# Calculator V1.13
   Calculator V1.11 has
   dynamic buttons which
   fit to the tab size
@@ -29,4 +29,5 @@ How to read the versions,
   also dynamic. V1.11
   now has brackets and
   follows the order of
-  operations.
+  operations. Has Dynamic
+  text.
