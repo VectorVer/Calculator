@@ -22,7 +22,7 @@ How to read the versions,
   to date.
   
 # Calculator V1.14
-  Calculator V1.11 has
+  Calculator V1.14 has
   dynamic buttons which
   fit to the tab size
   the answer area is
