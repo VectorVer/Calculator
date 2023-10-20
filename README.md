@@ -31,3 +31,6 @@ How to read the versions,
   follows the order of
   operations. Has Dynamic
   text. Buttons have been moved around.
+
+# Calculator V2
+  Calculator version two is coming out, I am currently making it, calculator version two is a scientific calculator which allows you to do more.
