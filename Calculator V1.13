@@ -94,11 +94,11 @@ if __name__ == "__main__":
                    command=lambda: press("-"), height=1, width=7)
     minus.grid(row=3, column=3, sticky="NSEW")
 
-    multiply = Button(gui, text=' * ', fg='white', bg='#ff970f',
+    multiply = Button(gui, text=' x ', fg='white', bg='#ff970f',
                       command=lambda: press("*"), height=1, width=7)
     multiply.grid(row=4, column=3, sticky="NSEW")
 
-    divide = Button(gui, text=' / ', fg='white', bg='#ff970f',
+    divide = Button(gui, text=' ÷ ', fg='white', bg='#ff970f',
                     command=lambda: press("/"), height=1, width=7)
     divide.grid(row=5, column=3, sticky="NSEW")
 
@@ -122,4 +122,79 @@ if __name__ == "__main__":
                           command=lambda: press(')'), height=1, width=7)
     closeBracket.grid(row=6, column=2, sticky="NSEW")
 
-    gui.mainloop()
+
+def resize(e):
+    size = e.width/10
+    global expression_field
+    
+    if e.height <= 400 and e.height > 300:
+        button0.config(font = ("Helvetica", 25))
+        button1.config(font = ("Helvetica", 25))
+        button2.config(font = ("Helvetica", 25))
+        button3.config(font = ("Helvetica", 25))
+        button4.config(font = ("Helvetica", 25))
+        button5.config(font = ("Helvetica", 25))
+        button6.config(font = ("Helvetica", 25))
+        button7.config(font = ("Helvetica", 25))
+        button8.config(font = ("Helvetica", 25))
+        button9.config(font = ("Helvetica", 25))
+        plus.config(font = ("Helvetica", 25))
+        minus.config(font = ("Helvetica", 25))
+        multiply.config(font = ("Helvetica", 25))
+        equal.config(font = ("Helvetica", 25))
+        clear.config(font = ("Helvetica", 25))
+        decimal.config(font = ("Helvetica", 25))
+        openBracket.config(font = ("Helvetica", 25))
+        closeBracket.config(font = ("Helvetica", 25))
+        divide.config(font = ("Helvetica", 25))
+        expression_field.config(font = ("Helvetica", 25))
+    
+
+    elif e.height < 300 and e.height > 200:
+        button0.config(font = ("Helvetica", 15))
+        button1.config(font = ("Helvetica", 15))
+        button2.config(font = ("Helvetica", 15))
+        button3.config(font = ("Helvetica", 15))
+        button4.config(font = ("Helvetica", 15))
+        button5.config(font = ("Helvetica", 15))
+        button6.config(font = ("Helvetica", 15))
+        button7.config(font = ("Helvetica", 15))
+        button8.config(font = ("Helvetica", 15))
+        button9.config(font = ("Helvetica", 15))
+        plus.config(font = ("Helvetica", 15))
+        minus.config(font = ("Helvetica", 15))
+        multiply.config(font = ("Helvetica", 15))
+        equal.config(font = ("Helvetica", 15))
+        clear.config(font = ("Helvetica", 15))
+        decimal.config(font = ("Helvetica", 15))
+        openBracket.config(font = ("Helvetica", 15))
+        closeBracket.config(font = ("Helvetica", 15))
+        divide.config(font = ("Helvetica", 15))
+        expression_field.config(font = ("Helvetica", 15))
+    
+
+    elif e.height < 200:
+        button0.config(font = ("Helvetica", 25))
+        button1.config(font = ("Helvetica", 25))
+        button2.config(font = ("Helvetica", 25))
+        button3.config(font = ("Helvetica", 25))
+        button4.config(font = ("Helvetica", 25))
+        button5.config(font = ("Helvetica", 25))
+        button6.config(font = ("Helvetica", 25))
+        button7.config(font = ("Helvetica", 25))
+        button8.config(font = ("Helvetica", 25))
+        button9.config(font = ("Helvetica", 25))
+        plus.config(font = ("Helvetica", 25))
+        minus.config(font = ("Helvetica", 25))
+        multiply.config(font = ("Helvetica", 25))
+        equal.config(font = ("Helvetica", 25))
+        clear.config(font = ("Helvetica", 25))
+        decimal.config(font = ("Helvetica", 25))
+        openBracket.config(font = ("Helvetica", 25))
+        closeBracket.config(font = ("Helvetica", 25))
+        divide.config(font = ("Helvetica", 25))
+        expression_field.config(font = ("Helvetica", 25))
+    
+gui.bind('<Configure>', resize)
+
+gui.mainloop()
